@@ -1,0 +1,60 @@
+{
+  "name": "iconicreact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fullcalendar/core": "^4.3.1",
+    "@fullcalendar/daygrid": "^4.4.2",
+    "@fullcalendar/interaction": "^4.3.0",
+    "@fullcalendar/list": "^4.3.0",
+    "@fullcalendar/react": "^4.3.0",
+    "@fullcalendar/timegrid": "^4.3.0",
+    "@react-navigation/core": "^3.5.1",
+    "@react-navigation/web": "^1.0.0-alpha.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "ckeditor4-react": "^1.1.1",
+    "echarts": "^4.8.0",
+    "echarts-for-react": "^2.0.16",
+    "echarts-gl": "^1.1.1",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-awesome-modal": "^2.0.5",
+    "react-big-calendar": "^0.26.0",
+    "react-bootstrap": "^1.2.2",
+    "react-circle-slider": "^1.6.2",
+    "react-circular-slider-svg": "^0.1.5",
+    "react-dom": "^16.13.1",
+    "react-drag-and-drop": "^3.0.0",
+    "react-rangeslider": "^2.2.0",
+    "react-redux": "^7.2.0",
+    "react-scripts": "^3.4.3",
+    "react-toastify": "^6.0.8",
+    "redux": "^4.0.5",
+    "round-slider": "^1.6.1",
+    "rsuite": "^4.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

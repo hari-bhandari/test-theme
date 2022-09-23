@@ -1,0 +1,71 @@
+.auth-main{
+    &.hr {
+        &:after {
+            background: url(../../images/hr_auth_bg.jpg) no-repeat top left fixed;
+        }
+    }
+}
+
+.attendance_list {
+    tr {
+        th,
+        td {
+            &:nth-child(2),
+            &:nth-child(9),
+            &:nth-child(16),
+            &:nth-child(23),
+            &:nth-child(30) {
+                background-color: #ffd4c3;
+            }
+            &:nth-child(8),
+            &:nth-child(15),
+            &:nth-child(22),
+            &:nth-child(29) {
+                background-color: #ebf2e8;
+            }
+        }
+    }
+}
+
+.sidebar-nav {
+    .metismenu {
+        >li {
+            margin: 2px 0;
+        }
+        a {
+            padding-top: 11px;
+            padding-bottom: 11px;
+        }
+    }
+}
+
+.client-detail{
+    .body {
+        display: flex;
+    }
+    .profile-image{
+        @extend .m-r-30;
+
+        @include max-screen($break-small - 1px){
+            text-align: center;
+            margin: 0;
+            width: 100%;
+        }
+    }
+    .details{
+        @extend .inlineblock;
+        width: calc(100% - 200px);        
+
+        @include max-screen($break-small - 1px){
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+.team-language {
+    span {
+        margin: 2px;
+    }
+}

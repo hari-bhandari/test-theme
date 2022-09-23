@@ -1,0 +1,58 @@
+// import google fonts
+@import 'font/fonts';
+@import 'font/simple-line-icons';
+@import 'font/weather-icons';
+
+// 
+@import "mixins/responsive";
+@import "mixins/clearfix";
+@import "mixins/css3";
+@import "mixins/elements-color-custom";
+@import "mixins/animation";
+
+// Project Core SCSS
+@import "base/variables";
+@import "base/general";
+@import "base/rtl";
+
+// Mesti Menu SCSS
+@import "metisMenu/metisMenu";
+
+// Bootstrap Custome SCSS
+@import "partials/badges";
+@import "partials/layout";
+@import "partials/card";
+@import "partials/navigation";
+@import "partials/leftbar";
+@import "partials/forms";
+@import "partials/authentication";
+@import "partials/buttons";
+@import "partials/elements";
+@import "partials/accordion";
+@import "partials/elements-bootstrap";
+@import "partials/charts";
+@import "partials/social-brands";
+@import "partials/typography";
+@import "partials/helpers";
+@import "partials/mediaobject";
+@import "partials/formwizard";
+@import "partials/tables";
+
+// Project Widgets SCSS
+@import "pages/widgets";
+
+// More Pages SCSS
+@import "pages/page-profile";
+@import "pages/page-profile2";
+@import "pages/timeline";
+@import "pages/calendar";
+@import "pages/file_manager";
+@import "pages/pricing";
+@import "pages/invoice";
+@import "pages/iot";
+
+// More Admin Templates SCSS
+@import "pages/hr";
+@import "pages/hospital";
+@import "pages/realestate";
+@import "pages/university";
